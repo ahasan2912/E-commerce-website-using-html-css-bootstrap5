@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Barlow:wght@400;500;600&family=Lato:wght@400;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@300;400&family=Saira:wght@300;400;500;600&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-title h2 {
+  text-shadow: 1px 1px 2px #444;
+}
+
+header nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #444;
+}
+header form.search-form {
+  position: relative;
+}
+header form.search-form input {
+  border-radius: 50px;
+}
+header button.search-btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 7px 30px;
+  border-radius: 50px;
+  background: var(--bs-orange);
+  border: 0;
+  color: #fff;
+}
+header ul.action-menu .nav-item .nav-link {
+  font-size: 18px;
+  margin: 0px 20px;
+}
+
+section.slider {
+  height: 80vh;
+  padding-top: 65px;
+}
+section.slider .slider-text h2 {
+  font-size: 68px;
+  font-weight: 600;
+}
+section.slider .slider-text h2 span.lighten {
+  color: var(--bs-orange);
+}
+section.slider .col-lg-6.slider-text {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+section.slider a.order-now {
+  background: rgba(253, 126, 20, 0.2196078431);
+  padding: 10px 45px;
+  border-radius: 50px;
+  color: var(--bs-orange);
+  text-decoration: none;
+  font-weight: 650;
+  position: relative;
+}
+section.slider a.order-now:hover {
+  box-shadow: 2px 2px 5px #ff9944;
+}
+section.slider a.order-now i {
+  font-size: 25px;
+  position: absolute;
+  top: 3px;
+}
+
+section.category-product {
+  padding: 55px 0px;
+}
+section.category-product .card {
+  background: #f7f7f7;
+  overflow: hidden;
+}
+section.category-product .card .card-body {
+  margin: 10px 0;
+}
+section.category-product .card .card-body img {
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: 0.6s;
+}
+section.category-product .card .card-body h4 {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #444;
+  margin: 20px 0px;
+}
+section.category-product .card .card-body a.view-all-btn {
+  background: var(--bs-success);
+  padding: 7px 30px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+section.category-product .card:hover .card-body img {
+  transform: scale(1.2);
+}
+
+section.banner {
+  padding: 20px 0px;
+}
+section.banner .item {
+  background: #ccc;
+  padding: 20px;
+}
+section.banner .item .text {
+  width: 210px;
+}
+section.banner .item .text h2 {
+  font-size: 42px;
+  line-height: 57px;
+  text-shadow: 1px 1px 1px #444;
+}
+section.banner .item .text a.order-now {
+  background: #198754;
+  padding: 8px 29px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+section.banner .item img {
+  height: 200px;
+  width: 200px;
+}
+
+section.latest-product {
+  padding: 33px 0px;
+  background: rgba(247, 247, 247, 0.968627451);
+}
+section.latest-product .card {
+  overflow: hidden;
+}
+section.latest-product .card .card-body img {
+  height: 140px;
+  transition: 0.6s;
+}
+section.latest-product .card .card-body h2.product_name {
+  font-size: 18px;
+  padding: 15px 0px;
+}
+section.latest-product .card .card-body h2.price {
+  font-size: 25px;
+}
+section.latest-product .card .card-body a.add-to-cart-btn {
+  border: 1px solid #198754;
+  padding: 5px 23px;
+  color: #198754;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.5s;
+}
+section.latest-product .card .card-body a.add-to-cart-btn:hover {
+  background: var(--bs-success);
+  color: #fff;
+}
+section.latest-product .card:hover .card-body img {
+  transform: scale(1.2);
+}
+
+h1.promo-title {
+  font-size: 53px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 53px;
+  width: 321px;
+  font-weight: 700;
+  color: #198754;
+}
+
+.border-top ul li a {
+  color: #000;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0px 15px;
+}
+.footer-list li a {
+  transition: 0.6s;
+}
+.footer-list li a:hover {
+  color: #0f5132;
+  padding-left: 7px;
+}
+
+.loading {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(253, 253, 253, 0.9411764706);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=mian.css.map */
